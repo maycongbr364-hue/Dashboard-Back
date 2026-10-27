@@ -1,18 +1,5 @@
-# Dashboard Executivo de Pneus - AMAGGI
+# Dashboard AMAGGI
 
-Pacote preparado para publicação como site estático no GitHub Pages.
+Fonte online via Google Apps Script e JSONP.
 
-## Publicação
-
-1. Crie um repositório no GitHub.
-2. Envie `index.html` e `.nojekyll` para a raiz da branch `main`.
-3. Abra **Settings > Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Escolha a branch `main`, pasta `/(root)` e clique em **Save**.
-6. Aguarde a URL de publicação aparecer na mesma tela.
-
-## Observações
-
-- O Excel e a marca estão incorporados no `index.html`.
-- O navegador precisa de internet para carregar Bootstrap, SheetJS e Chart.js pelos CDNs.
-- O site contém dados incorporados da pasta de trabalho. Revise a autorização de divulgação antes de publicar publicamente.
+Antes de publicar, confira se a implantação do Apps Script está definida como **Aplicativo da Web**, executando como o proprietário, com acesso para **Qualquer pessoa**. Depois envie `index.html` e `.nojekyll` para a raiz do GitHub Pages.
